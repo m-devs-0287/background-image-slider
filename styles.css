@@ -33,7 +33,7 @@ body::before {
 .slider-container {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   height: 70vh;
-  width: 70vh;
+  width: 70vw;
   position: relative;
   overflow: hidden;
   /* z-index: 1; */
@@ -74,8 +74,9 @@ body::before {
 }
 
 .left-arrow {
-  left: calc(15vw - 65px);
+  left: calc(15vw - 68px);
 }
 .right-arrow {
-  right: calc(15vw - 65px);
+  right: calc(15vw - 68px);
 }
+
